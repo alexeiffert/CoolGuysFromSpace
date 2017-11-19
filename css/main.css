@@ -49,6 +49,16 @@ body, html {
   text-transform: uppercase;
   font-size: 26px;
   letter-spacing: -1px;
+  border-bottom: 3px solid #4B0082;
+  transition: .4s;
+}
+
+#navigation #title:hover {
+  border-bottom: 3px solid red;
+}
+
+#navigation a {
+  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5 {
@@ -66,11 +76,11 @@ h1, h2, h3, h4, h5 {
 
 #content a {
   text-decoration: none;
-  color: #555;
+  color: #4B0082;
 }
 
 #content a:hover {
-  color: #777;
+  color: red;
 }
 
 #content p {
@@ -115,52 +125,3 @@ p {
   margin-top: 10px;
 }
 
-
-/*body
-{
-  background-color: linen;
-  text-align: center;
-}
-
-p
-{
-  font-family: 'Lato', 'Arial', 'Sans-Serif';
-  font-size: 1.7rem;
-}
-
-h1, h2, h3, h4, h5
-{
-  font-family: 'Montserrat', 'Arial', 'Sans-Serif';
-}
-
-h1
-{
-  font-size: 3rem;
-}
-
-h2
-{
-  font-size: 2.5rem;
-}
-
-h3
-{
-  font-size: 2rem;
-}
-
-h4
-{
-  font-size: 1.5rem;
-}
-
-h5
-{
-  font-size: 1.2rem;
-}
-
-h6
-{
-  font-size: 1.1rem;
-}
-
-*/
